@@ -1,0 +1,8 @@
+button{
+    background-color: #2563EB;
+}
+button:hover{
+    background-color: #8B5CF6;
+    transition: .5s;
+    box-shadow: 2px 2px 15px #8B5CF6;
+}

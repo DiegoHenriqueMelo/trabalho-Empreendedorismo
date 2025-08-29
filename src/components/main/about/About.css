@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+#about {
+  background: linear-gradient(to right, #000000ce),
+              url("../../../../public/img/1.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+

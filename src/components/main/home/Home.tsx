@@ -3,15 +3,18 @@ import "./Home.css";
 function Home() {
   return (
     <>
-      <div className="flex items-center flex-row flex-wrap justify-evenly h-screen">
-        <div className="rounded-md w-96 h-80 bg-gray-400"></div>
-        <div>
-          <h2 className="text-3xl">Lorem ipsum</h2>
-          <p className="w-2xs">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            voluptatem veritatis, dicta aliquam velit blanditiis omnis quae
-            consequatur expedita, animi voluptatum voluptate esse molestiae
-            nesciunt vero autem quod deleniti aperiam.
+      <div
+        id="home"
+        className="flex items-center justify-end h-screen px-8 md:px-16"
+      >
+        <div className="text-right max-w-lg">
+          <h2 className="text-3xl font-bold mb-4 leading-tight">
+            Automatize seu feed. Organize seu estilo. Cresça com consistência
+          </h2>
+          <p className="text-lg leading-relaxed">
+            Agende publicações, mantenha seu perfil sempre limpo e alinhado à
+            sua identidade visual. Mais tempo para criar, menos preocupação em
+            postar.
           </p>
         </div>
       </div>

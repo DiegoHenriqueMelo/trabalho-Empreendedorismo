@@ -6,15 +6,13 @@ import { ScrollReveal } from "./components/ScrollReveal.tsx";
 
 function App() {
   return (
-    <>
-      <body>
-        <Header />
-        <Main />
-        <ScrollReveal>
-          <Footer />
-        </ScrollReveal>
-      </body>
-    </>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <Main />
+      <ScrollReveal>
+        <Footer />
+      </ScrollReveal>
+    </div>
   );
 }
 

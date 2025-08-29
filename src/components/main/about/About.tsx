@@ -3,17 +3,19 @@ import "../about/About.css";
 function About() {
   return (
     <>
-      <div className="flex items-center flex-row flex-wrap justify-evenly h-screen bg-gray-200">
-        <div>
-          <h2 className="text-3xl">Lorem ipsum</h2>
-          <p className="w-2xs">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            voluptatem veritatis, dicta aliquam velit blanditiis omnis quae
-            consequatur expedita, animi voluptatum voluptate esse molestiae
-            nesciunt vero autem quod deleniti aperiam.
+      <div id="about" className="flex items-center flex-row flex-wrap justify-evenly h-screen">
+        <div className="text-left max-w-md">
+          <h2 className="text-3xl font-bold mb-4 leading-tight">
+            Nosso objetivo é simplificar sua presença digital.
+          </h2>
+          <p className="text-lg leading-relaxed">
+            Com poucos cliques, você organiza seu feed, define horários
+            estratégicos e garante consistência visual sem esforço. O sistema
+            cuida da automação: publica, substitui posts antigos e mantém tudo
+            dentro do estilo que você escolheu. Assim, sua marca ou perfil
+            cresce com organização, impacto e autenticidade.
           </p>
         </div>
-        <div className="rounded-md w-96 h-80 bg-white"></div>
       </div>
     </>
   );
