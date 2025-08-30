@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-left">
-          <h2>LOGO</h2>
+          <h2>Postly</h2>
           <p>Transformando ideias em realidade através do empreendedorismo inovador.</p>
         </div>
         
@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>© 2024 Todos os direitos reservados | Política de Privacidade | Termos de Uso</p>
+        <p>© 2025 Todos os direitos reservados | Política de Privacidade | Termos de Uso</p>
       </div>
     </footer>
   );

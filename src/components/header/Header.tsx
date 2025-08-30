@@ -18,7 +18,7 @@ function Header() {
       <header className={`fixed top-0 left-0 right-0 z-50 flex items-center flex-row flex-wrap justify-evenly p-4 transition-all duration-300 ${
         isScrolled ? 'bg-black bg-opacity-80' : 'bg-gray-300'
       }`}>
-        <h1 className="text-4xl">Nome da Empresa</h1>
+        <h1 className="text-4xl">Postly</h1>
         <Navbar />
       </header>
     </>
