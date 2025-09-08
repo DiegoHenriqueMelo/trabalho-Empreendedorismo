@@ -20,8 +20,10 @@
 
 ### ✨ Funcionalidades Principais
 
+- 🤖 **IA Generativa Integrada** - Inteligência artificial que padroniza posts e mantém identidade visual
 - 📅 **Agendamento de Posts** - Programe suas publicações para horários estratégicos
-- 🎨 **Consistência Visual** - Mantenha sua identidade visual alinhada
+- 🎯 **Focado no MEI** - Software simples e intuitivo para microempreendedores
+- 🔗 **Automação N8N** - Fluxos de trabalho personalizados conectando todas suas plataformas
 - 🔄 **Automação Inteligente** - Sistema cuida da publicação e substituição de posts antigos
 - 📊 **Organização do Feed** - Mantenha seu perfil sempre limpo e profissional
 - ⏰ **Economia de Tempo** - Mais tempo para criar, menos preocupação em postar
@@ -31,6 +33,8 @@
 - **Frontend**: React 19 + TypeScript
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS
+- **Automação**: N8N (Workflow Automation)
+- **IA**: Integração com modelos generativos
 - **Deployment**: GitHub Pages
 - **Linting**: ESLint
 

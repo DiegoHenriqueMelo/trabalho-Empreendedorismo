@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+#n8n-automation {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+}
