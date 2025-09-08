@@ -4,9 +4,9 @@ function N8NAutomation() {
   return (
     <div
       id="n8n-automation"
-      className="flex items-center flex-row flex-wrap justify-evenly h-screen"
+      className="flex items-center flex-col lg:flex-row flex-wrap justify-evenly min-h-screen py-8 px-4"
     >
-      <div className="text-left max-w-md">
+      <div className="text-left max-w-md mb-8 lg:mb-0">
         <div className="flex items-center mb-6">
           <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-lg flex items-center justify-center mr-4">
             <svg
@@ -23,9 +23,9 @@ function N8NAutomation() {
               />
             </svg>
           </div>
-          <h2 className="text-3xl font-bold leading-tight">Automação N8N</h2>
+          <h2 className="text-2xl md:text-3xl font-bold leading-tight">Automação N8N</h2>
         </div>
-        <p className="text-lg leading-relaxed mb-6">
+        <p className="text-base md:text-lg leading-relaxed mb-6">
           Utilizamos a poderosa plataforma N8N para criar fluxos de automação
           personalizados. Conectamos suas redes sociais, ferramentas de design e
           sistemas de gestão em um workflow inteligente e eficiente.
@@ -67,11 +67,11 @@ function N8NAutomation() {
         </div>
       </div>
       <div className="relative">
-        <div className="w-80 h-80 bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl flex items-center justify-center">
-          <div className="grid grid-cols-3 gap-4">
-            <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-red-400 rounded-lg flex items-center justify-center">
+        <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl flex items-center justify-center">
+          <div className="grid grid-cols-3 gap-2 md:gap-4">
+            <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-orange-400 to-red-400 rounded-lg flex items-center justify-center">
               <svg
-                className="w-8 h-8 text-white"
+                className="w-6 h-6 md:w-8 md:h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -84,9 +84,9 @@ function N8NAutomation() {
                 />
               </svg>
             </div>
-            <div className="w-16 h-16 bg-gradient-to-r from-red-400 to-orange-400 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-red-400 to-orange-400 rounded-lg flex items-center justify-center">
               <svg
-                className="w-8 h-8 text-white"
+                className="w-6 h-6 md:w-8 md:h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -99,9 +99,9 @@ function N8NAutomation() {
                 />
               </svg>
             </div>
-            <div className="w-16 h-16 bg-gradient-to-r from-orange-400 to-red-400 rounded-lg flex items-center justify-center">
+            <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-r from-orange-400 to-red-400 rounded-lg flex items-center justify-center">
               <svg
-                className="w-8 h-8 text-white"
+                className="w-6 h-6 md:w-8 md:h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
